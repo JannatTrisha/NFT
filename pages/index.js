@@ -95,7 +95,7 @@ export default function Home() {
    <Header/>
    <div className="text-center">
    <p className="text-md text-blue-400 lg:text-3xl">Hi, {address?.slice(0,10)}...{address?.slice(-10)} </p>
-   <div className="flex bg-yellow-400 px-10 mt-5 flex-col space-y-4 py-10 rounded-xl md:mx-[200px] lg:mx-[800px]">
+   <div className="flex bg-yellow-400 px-10 mt-5 flex-col space-y-4 py-10 rounded-xl md:mx-[200px] lg:mx-[400px]">
    <p>NFT MarketPlace</p>
    <input type="text" placeholder="Enter your name" value={name} onChange={(e)=>{setName(e.target.value)}} className="border border-black px-2 " />
    <input type="text" placeholder="Enter your description" value={description} onChange={(e)=>{setDescription(e.target.value)}} className="border border-black px-2 " />
